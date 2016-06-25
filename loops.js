@@ -32,11 +32,18 @@ console.log(evenNumberArray);
 
 var oopsArray = ['turn', ,'down', ,'for', ,'what'];
 
-function(oopsArray){
+function(oopsArray1){
 for(var i = 1; i<6; i+=2){
   oopsArray.splice(i,1,"nope");
 }
-console.log(oopsArray);
+console.log(oopsArray1);
 }
 
+function(oopsArray2){
+for(var i = 6; i>-1; i--){
+  console.log(oopsArray[i]);
+}
+}
 
+var isNapTime = false;
+var napSchedule = [false, false, true, false, true, true];
