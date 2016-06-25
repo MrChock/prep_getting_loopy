@@ -1,4 +1,4 @@
-var presidents = ["Washington", "Adams", "Jefferson", "Madison,", "Monroe"];
+var presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe"];
 
 for(var i = 0; i<presidents.length; i++){
   console.log("The value of i is " + i);
@@ -9,3 +9,10 @@ for(var i = 10; i<21; i++){
   stringOfNumbers = stringOfNumbers+i;
 }
 console.log(stringOfNumbers);
+
+var evenNumberArray =[];
+
+for(var i = 0; i<50; i++){
+  evenNumberArray.push(i*2);
+}
+console.log(evenNumberArray);
